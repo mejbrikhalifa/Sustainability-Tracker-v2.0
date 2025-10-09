@@ -1,0 +1,18 @@
+# Core dependencies (required)
+streamlit>=1.36.0
+pandas>=2.0.0
+altair>=5.0.0
+python-dotenv>=1.0.1
+
+# AI features (optional - for GPT-powered tips)
+openai>=1.30.0
+
+# PDF export (optional - for branded reports)
+reportlab>=4.0.0
+matplotlib>=3.8.0
+
+# Chart downloads (optional - for PNG export)
+altair_saver>=0.5.0
+
+# Testing (development only)
+pytest>=7.0.0
