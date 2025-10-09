@@ -1,0 +1,9 @@
+{
+  "tip_temperature": 0.7,
+  "tip_max_tokens": 160,
+  "summary_temperature": 0.5,
+  "summary_max_tokens": 220,
+  "renewable_pct": 24,
+  "exp_ai_summary_open": true,
+  "exp_prompt_experiments_open": true
+}
