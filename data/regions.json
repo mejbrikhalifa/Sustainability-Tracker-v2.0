@@ -1,1 +1,178 @@
-# Assets folder
+{
+  "EU-avg": {
+    "__meta__": {"source": "EU average", "version": "2024.1", "url": "https://ember-climate.org"},
+    "factors": {"electricity_kwh": 0.28},
+    "grid_mix": {"coal": 0.15, "gas": 0.20, "nuclear": 0.25, "hydro": 0.15, "wind": 0.18, "solar": 0.07}
+  },
+  "US-avg": {
+    "__meta__": {"source": "US average", "version": "2024.1", "url": "https://www.eia.gov"},
+    "factors": {"electricity_kwh": 0.40},
+    "grid_mix": {"coal": 0.20, "gas": 0.38, "nuclear": 0.19, "hydro": 0.07, "wind": 0.11, "solar": 0.05}
+  },
+  "US-CA": {
+    "__meta__": {"source": "California", "version": "2024.1", "url": "https://www.caiso.com"},
+    "factors": {"electricity_kwh": 0.22},
+    "grid_mix": {"gas": 0.42, "solar": 0.18, "wind": 0.12, "hydro": 0.10, "nuclear": 0.09, "geothermal": 0.06, "coal": 0.03}
+  },
+  "CA": {
+    "__meta__": {"source": "Canada average", "version": "2024.1", "url": "https://www.cer-rec.gc.ca"},
+    "factors": {"electricity_kwh": 0.12},
+    "grid_mix": {"hydro": 0.60, "nuclear": 0.15, "gas": 0.11, "wind": 0.06, "coal": 0.05, "solar": 0.02, "biomass": 0.01}
+  },
+  "UK": {
+    "__meta__": {"source": "United Kingdom", "version": "2024.1", "url": "https://www.nationalgrideso.com"},
+    "factors": {"electricity_kwh": 0.23},
+    "grid_mix": {"gas": 0.40, "wind": 0.24, "nuclear": 0.16, "solar": 0.05, "biomass": 0.06, "hydro": 0.02, "coal": 0.02, "oil": 0.05}
+  },
+  "FR": {
+    "__meta__": {"source": "France", "version": "2024.1", "url": "https://www.rte-france.com"},
+    "factors": {"electricity_kwh": 0.07},
+    "grid_mix": {"nuclear": 0.66, "hydro": 0.12, "wind": 0.10, "solar": 0.06, "gas": 0.04, "coal": 0.02}
+  },
+  "DE": {
+    "__meta__": {"source": "Germany", "version": "2024.1", "url": "https://www.destatis.de"},
+    "factors": {"electricity_kwh": 0.38},
+    "grid_mix": {"coal": 0.30, "wind": 0.24, "gas": 0.16, "nuclear": 0.06, "solar": 0.11, "biomass": 0.09, "hydro": 0.04}
+  },
+  "CN": {
+    "__meta__": {"source": "China average", "version": "2024.1", "url": "https://www.nea.gov.cn"},
+    "factors": {"electricity_kwh": 0.58},
+    "grid_mix": {"coal": 0.62, "hydro": 0.16, "wind": 0.08, "solar": 0.05, "nuclear": 0.05, "gas": 0.03, "biomass": 0.01}
+  },
+  "IN": {
+    "__meta__": {"source": "India average", "version": "2024.1", "url": "https://cea.nic.in"},
+    "factors": {"electricity_kwh": 0.71},
+    "grid_mix": {"coal": 0.72, "hydro": 0.10, "solar": 0.06, "wind": 0.05, "gas": 0.03, "nuclear": 0.03, "biomass": 0.01}
+  },
+  "JP": {
+    "__meta__": {"source": "Japan average", "version": "2024.1", "url": "https://www.enecho.meti.go.jp"},
+    "factors": {"electricity_kwh": 0.46},
+    "grid_mix": {"gas": 0.37, "coal": 0.31, "hydro": 0.08, "nuclear": 0.07, "oil": 0.07, "solar": 0.06, "wind": 0.02, "biomass": 0.02}
+  },
+  "AU": {
+    "__meta__": {"source": "Australia average", "version": "2024.1", "url": "https://www.aemo.com.au"},
+    "factors": {"electricity_kwh": 0.65},
+    "grid_mix": {"coal": 0.52, "gas": 0.20, "wind": 0.11, "solar": 0.12, "hydro": 0.05}
+  },
+  "BR": {
+    "__meta__": {"source": "Brazil average", "version": "2024.1", "url": "https://www.ons.org.br"},
+    "factors": {"electricity_kwh": 0.09},
+    "grid_mix": {"hydro": 0.64, "wind": 0.12, "biomass": 0.09, "gas": 0.08, "solar": 0.04, "nuclear": 0.02, "coal": 0.01}
+  },
+  "RU": {
+    "__meta__": {"source": "Russia average", "version": "2024.1", "url": "https://minenergo.gov.ru"},
+    "factors": {"electricity_kwh": 0.36},
+    "grid_mix": {"gas": 0.50, "hydro": 0.19, "nuclear": 0.20, "coal": 0.10, "oil": 0.01}
+  },
+  "ZA": {
+    "__meta__": {"source": "South Africa average", "version": "2024.1", "url": "https://www.eskom.co.za"},
+    "factors": {"electricity_kwh": 0.92},
+    "grid_mix": {"coal": 0.88, "nuclear": 0.05, "hydro": 0.02, "wind": 0.03, "solar": 0.02}
+  },
+  "NG": {
+    "__meta__": {"source": "Nigeria average", "version": "2024.1", "url": ""},
+    "factors": {"electricity_kwh": 0.52},
+    "grid_mix": {"gas": 0.78, "hydro": 0.20, "solar": 0.01, "oil": 0.01}
+  },
+  "EG": {
+    "__meta__": {"source": "Egypt average", "version": "2024.1", "url": ""},
+    "factors": {"electricity_kwh": 0.48},
+    "grid_mix": {"gas": 0.77, "hydro": 0.10, "oil": 0.08, "wind": 0.03, "solar": 0.02}
+  },
+  "KE": {
+    "__meta__": {"source": "Kenya average", "version": "2024.1", "url": ""},
+    "factors": {"electricity_kwh": 0.15},
+    "grid_mix": {"hydro": 0.35, "geothermal": 0.45, "wind": 0.10, "solar": 0.02, "biomass": 0.05, "oil": 0.03}
+  },
+  "SG": {
+    "__meta__": {"source": "Singapore average", "version": "2024.1", "url": "https://www.ema.gov.sg"},
+    "factors": {"electricity_kwh": 0.41},
+    "grid_mix": {"gas": 0.95, "solar": 0.03, "oil": 0.02}
+  },
+  "TH": {
+    "__meta__": {"source": "Thailand average", "version": "2024.1", "url": ""},
+    "factors": {"electricity_kwh": 0.47},
+    "grid_mix": {"gas": 0.63, "coal": 0.20, "hydro": 0.05, "biomass": 0.06, "solar": 0.04, "wind": 0.02}
+  },
+  "VN": {
+    "__meta__": {"source": "Vietnam average", "version": "2024.1", "url": ""},
+    "factors": {"electricity_kwh": 0.52},
+    "grid_mix": {"coal": 0.48, "hydro": 0.30, "gas": 0.14, "solar": 0.05, "wind": 0.02, "biomass": 0.01}
+  },
+  "ID": {
+    "__meta__": {"source": "Indonesia average", "version": "2024.1", "url": ""},
+    "factors": {"electricity_kwh": 0.68},
+    "grid_mix": {"coal": 0.62, "gas": 0.22, "hydro": 0.07, "geothermal": 0.05, "oil": 0.03, "biomass": 0.01}
+  },
+  "MY": {
+    "__meta__": {"source": "Malaysia average", "version": "2024.1", "url": ""},
+    "factors": {"electricity_kwh": 0.54},
+    "grid_mix": {"gas": 0.48, "coal": 0.40, "hydro": 0.10, "solar": 0.01, "biomass": 0.01}
+  },
+  "PH": {
+    "__meta__": {"source": "Philippines average", "version": "2024.1", "url": ""},
+    "factors": {"electricity_kwh": 0.56},
+    "grid_mix": {"coal": 0.58, "gas": 0.21, "hydro": 0.10, "geothermal": 0.09, "oil": 0.01, "solar": 0.01}
+  },
+  "KR": {
+    "__meta__": {"source": "South Korea average", "version": "2024.1", "url": ""},
+    "factors": {"electricity_kwh": 0.42},
+    "grid_mix": {"coal": 0.35, "gas": 0.29, "nuclear": 0.27, "hydro": 0.01, "solar": 0.05, "wind": 0.02, "oil": 0.01}
+  },
+  "MX": {
+    "__meta__": {"source": "Mexico average", "version": "2024.1", "url": ""},
+    "factors": {"electricity_kwh": 0.45},
+    "grid_mix": {"gas": 0.62, "coal": 0.10, "hydro": 0.10, "wind": 0.07, "nuclear": 0.04, "geothermal": 0.03, "solar": 0.03, "oil": 0.01}
+  },
+  "AR": {
+    "__meta__": {"source": "Argentina average", "version": "2024.1", "url": ""},
+    "factors": {"electricity_kwh": 0.35},
+    "grid_mix": {"gas": 0.60, "hydro": 0.25, "nuclear": 0.07, "wind": 0.05, "solar": 0.02, "biomass": 0.01}
+  },
+  "CL": {
+    "__meta__": {"source": "Chile average", "version": "2024.1", "url": ""},
+    "factors": {"electricity_kwh": 0.38},
+    "grid_mix": {"coal": 0.28, "hydro": 0.28, "solar": 0.16, "gas": 0.16, "wind": 0.10, "biomass": 0.02}
+  },
+  "NO": {
+    "__meta__": {"source": "Norway average", "version": "2024.1", "url": ""},
+    "factors": {"electricity_kwh": 0.02},
+    "grid_mix": {"hydro": 0.92, "wind": 0.06, "gas": 0.01, "biomass": 0.01}
+  },
+  "SE": {
+    "__meta__": {"source": "Sweden average", "version": "2024.1", "url": ""},
+    "factors": {"electricity_kwh": 0.04},
+    "grid_mix": {"nuclear": 0.30, "hydro": 0.45, "wind": 0.18, "biomass": 0.05, "solar": 0.01, "gas": 0.01}
+  },
+  "IS": {
+    "__meta__": {"source": "Iceland average", "version": "2024.1", "url": ""},
+    "factors": {"electricity_kwh": 0.01},
+    "grid_mix": {"hydro": 0.70, "geothermal": 0.30}
+  },
+  "NZ": {
+    "__meta__": {"source": "New Zealand average", "version": "2024.1", "url": ""},
+    "factors": {"electricity_kwh": 0.11},
+    "grid_mix": {"hydro": 0.57, "geothermal": 0.18, "gas": 0.15, "wind": 0.06, "coal": 0.02, "solar": 0.01, "biomass": 0.01}
+  },
+  "AE": {
+    "__meta__": {"source": "UAE average", "version": "2024.1", "url": ""},
+    "factors": {"electricity_kwh": 0.48},
+    "grid_mix": {"gas": 0.90, "solar": 0.08, "nuclear": 0.02}
+  },
+  "SA": {
+    "__meta__": {"source": "Saudi Arabia average", "version": "2024.1", "url": ""},
+    "factors": {"electricity_kwh": 0.62},
+    "grid_mix": {"oil": 0.48, "gas": 0.48, "solar": 0.03, "wind": 0.01}
+  },
+  "TR": {
+    "__meta__": {"source": "Turkey average", "version": "2024.1", "url": ""},
+    "factors": {"electricity_kwh": 0.42},
+    "grid_mix": {"gas": 0.37, "coal": 0.37, "hydro": 0.15, "wind": 0.08, "solar": 0.02, "geothermal": 0.01}
+  },
+  "PL": {
+    "__meta__": {"source": "Poland average", "version": "2024.1", "url": ""},
+    "factors": {"electricity_kwh": 0.78},
+    "grid_mix": {"coal": 0.72, "wind": 0.11, "gas": 0.07, "hydro": 0.02, "biomass": 0.05, "solar": 0.02, "oil": 0.01}
+  }
+}
+
